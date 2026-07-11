@@ -6,6 +6,7 @@ import './App.css'
 import StudentEntry from './components/StudentEntry'
 import SearchStudent from './components/SearchStudent'
 import ViewStudents from './components/ViewStudents'
+import DeleteStudent from './components/DeleteStudent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <StudentEntry/>
       <SearchStudent/>
       <ViewStudents/>
+      <DeleteStudent />
     </>
   )
 }
